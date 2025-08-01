@@ -16,4 +16,4 @@ The summaries are produced by an LLM. In the current version of the code, this i
 ## Usage
 Simply install the required packages (with `pip` or `conda` depending on your setup) and desired LLM (edit the model name accordingly in the code if you do not use `llama3.2:3b`) and either download the `app_streamlit.py` file or clone the repository. 
 
-The web app can be opened using `streamlit run app_streamlit.py`, which will bring you to a page consisting of a distribution of new submissions by astro-ph subject and a drop-down menu that will allow you to select a subject to produce abstract summaries for. Once the summaries have been generated, they will be posted alongside direct links to the corresponding articles hosted on arxiv.org.
+The web app can be opened using `streamlit run app_streamlit.py`, which will bring you to a page consisting of a distribution of new submissions by astro-ph subject and a drop-down menu that will allow you to select a subject to produce abstract summaries for. Once the summaries have been generated, they will be posted alongside direct links to the corresponding articles hosted on arxiv.org. See the GIF below for a demonstration.
